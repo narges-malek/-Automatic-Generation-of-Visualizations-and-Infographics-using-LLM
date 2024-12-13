@@ -30,3 +30,17 @@ This platform leverages the power of LlamaIndex and Large Language Models (Llama
    git clone https://github.com/yourusername/visualization-generator-llms.git
    cd visualization-generator-llms
 
+2. Set up a virtual environment:
+   python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. Install the required packages:
+   pip install -r requirements.txt
+
+4. Set up environment variables:
+
+Copy .env.example to .env
+Update the .env file with your API keys and other configurations.
+
+Usage;
+Describe how to use the application, including examples of natural language queries and expected outputs.
